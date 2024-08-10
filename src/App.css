@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.country-flag {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
